@@ -13,9 +13,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { Uid } from '@ionic-native/uid/ngx';
 import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
+import { EntryEarnComponent } from './entry-earn/entry-earn.component';
 @NgModule({
-  declarations: [AppComponent],
-  entryComponents: [],
+  declarations: [AppComponent,EntryEarnComponent],
+  entryComponents: [EntryEarnComponent],
   imports: [
     BrowserModule, 
     IonicModule.forRoot(), 
